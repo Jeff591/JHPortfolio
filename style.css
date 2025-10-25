@@ -50,6 +50,11 @@ nav {
   margin-bottom: 1rem;
 }
 
+#about {
+  text-align: center;
+  color: white;
+}
+
 .btn {
   display: inline-block;
   background: white;
