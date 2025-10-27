@@ -13,7 +13,6 @@
       <ul class="nav-links">
         <li><a href="./about/index.html">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -23,24 +22,41 @@
       <h2>Welcome to Jeffrey's Portfolio</h2>
       <p>I build immersive, interactive digital experiences.</p>
       <a href="#projects" class="btn">View My Work</a>
+      <a href="./about/index.html" class="btn">About Me</a>
     </section>
 
     <section id="projects">
       <h2>Featured Projects</h2>
-      <div class="project-grid">
+      <section class="project-grid">
         <div class="project-card">
-          <h3>Character Customizer</h3>
-          <p>A UE-based character customization system with dynamic data assets.</p>
+          <div style="grid-area: box-1">
+            <h3>Neurodiversity in Tech</h3>
+            <p>A UE-based character customization system with dynamic data assets.</p>
+          </div>
+          <img src="./images/IncidentCommanderTitle.png" style="grid-area: box-2" alt="NDTech">
         </div>
         <div class="project-card">
-          <h3>Emoji Translator</h3>
-          <p>A context-sensitive emoji-to-text translator built with JavaScript.</p>
+          <div style="grid-area: box-1">
+            <h3>Climate Games</h3>
+            <p>A context-sensitive emoji-to-text translator built with JavaScript.</p>
+          </div>
+          <img src="./images/ClimateGames.png" style="grid-area: box-2" alt="Climate Games">
         </div>
         <div class="project-card">
-          <h3>Metahuman Pipeline</h3>
-          <p>Pipeline to digitally reconstruct historical figures using AI models.</p>
+          <div style="grid-area: box-1">
+            <h3>Historic Metahumans</h3>
+            <p>Pipeline to digitally reconstruct historical figures using AI models.</p>
+          </div>
+          <img src="./images/HistoricMetahumans.png" style="grid-area: box-2" alt="Historic Metahumans">
         </div>
-      </div>
+        <div class="project-card">
+          <div style="grid-area: box-1">
+            <h3>Cyberarch Warehouse</h3>
+            <p>Pipeline to digitally reconstruct historical figures using AI models.</p>
+          </div>
+          <img src="images/CyberarchWarehouse.png" style="grid-area: box-2" alt="Cyberarch Warehouse">
+        </div>
+      </section>
     </section>
   </section>
   <script src="script.js"></script>
