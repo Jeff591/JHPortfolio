@@ -85,7 +85,7 @@ h2 {
   grid-template-columns: 50% 50% ;
   grid-auto-rows: auto;
   gap: 1.5rem;
-  overflow-y: scroll;
+  overflow-x: visible;
 }
 
 .project-card {
